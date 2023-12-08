@@ -1,0 +1,5 @@
+# Router no. 1 at AS 64503
+ip addr add 172.16.1.2/24 dev eth0
+ip addr add 172.16.4.1/24 dev eth1
+/etc/init.d/zebra start
+/etc/init.d/bgpd start
